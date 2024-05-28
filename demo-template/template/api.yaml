@@ -10,7 +10,7 @@ metadata:
       title: Source Code
       icon: code
 spec:
-  type: asyncapi
+  type: openapi
   lifecycle: production
   owner: team-c
   definition:
