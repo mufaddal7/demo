@@ -1,0 +1,32 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sample-api
+  description: API for Sample
+spec:
+  type: service
+  lifecycle: production
+  owner: your-team
+  definition:
+    type: openapi
+    content:
+      $text: |
+        openapi: 3.0.0
+        info:
+          title: Sample API
+          description: API for Sample
+          version: 1.0.0
+        paths:
+          /sample:
+            get:
+              summary: Gets a sample
+              responses:
+                '200':
+                  description: A successful response
+                  content:
+                    application/json:
+                      schema:
+                        type: object
+                        properties:
+                          message:
+                            type: string
