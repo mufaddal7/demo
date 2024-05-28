@@ -15,7 +15,7 @@ info:
     url: https://drkv.com
   version: '1.0'
 servers:
-- url: https://app.drkv.xyz/{basePath}
+- url: https://api.dev.drkv.xyz/{basePath}
   variables:
     basePath:
       default: dev
