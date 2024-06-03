@@ -14,4 +14,4 @@ spec:
   lifecycle: production
   owner: team-c
   definition:
-    $text: ./apidef.yaml
+    $text: ./apidef.json
